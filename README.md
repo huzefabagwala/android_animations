@@ -51,5 +51,5 @@ boolean temp1 = true;
 
 ### Download the Preview APK [HERE](https://github.com/huzefabagwala/android_animations/blob/master/Sample/app-debug.apk "Sample APK")
 
-### Check this project on [Dribbble](https://dribbble.com)
+### Check this project on [Dribbble](https://dribbble.com/shots/4905239-Android-Icon-Animations-Ready-to-use-XML-files)
 
