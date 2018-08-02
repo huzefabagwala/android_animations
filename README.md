@@ -49,8 +49,7 @@ boolean temp1 = true;
     }
 ```
 
-# Download the Preview APK
-Link
+### Download the Preview APK [HERE](https://github.com/huzefabagwala/android_animations/blob/master/Sample/app-debug.apk "Sample APK")
 
-### Check this [project on dribbble] (https://dribbble.com)
+### Check this project on [Dribbble](https://dribbble.com)
 
