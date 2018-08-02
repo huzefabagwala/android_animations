@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/image_view_hamburger"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="animate_hamburger"
+            app:srcCompat="@drawable/hamburger_to_back" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/image_view_play_to_pause"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="animate_play_to_pause"
+            app:srcCompat="@drawable/play_to_pause" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/image_view_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="animate"
+            app:srcCompat="@drawable/next" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/image_view_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="animate"
+            app:srcCompat="@drawable/previous" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/image_view_shuffle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="animate_shuffle"
+            app:srcCompat="@drawable/shuffle" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/image_view_repeat"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="animate_repeat"
+            app:srcCompat="@drawable/repeat_on" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/image_view_repeat_one"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="animate_repeat_one"
+            app:srcCompat="@drawable/repeat_one" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/image_view_edit_to_done"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="animate_edit_to_done"
+            app:srcCompat="@drawable/edit_to_done"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/image_view_list_to_grid"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="animate_list_to_grid"
+            app:srcCompat="@drawable/list_to_grid" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/image_view_mute"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="animate_mute"
+            app:srcCompat="@drawable/mute" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/image_view"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="animate"
+            app:srcCompat="@drawable/eye" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/image_view_show_to_hide"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="animate_show_to_hide"
+            app:srcCompat="@drawable/show_to_hide" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/image_view_search_to_close"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="animate_search_to_close"
+            app:srcCompat="@drawable/search_to_close" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/image_view_search_to_back"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="animate_search_to_back"
+            app:srcCompat="@drawable/search_to_back" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/image_view_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="animate"
+            app:srcCompat="@drawable/share" />
+
+        <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/image_view_2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="animate"
+        app:srcCompat="@drawable/heart" />
+
+        <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/image_view_accordian"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="animate_accordian"
+        app:srcCompat="@drawable/expand" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/image_view_check"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="animate_check"
+            app:srcCompat="@drawable/check" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/image_view_radio"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="animate_radio"
+            app:srcCompat="@drawable/radio_on" />
+
+        
+    </LinearLayout>
+
+
+</ScrollView>

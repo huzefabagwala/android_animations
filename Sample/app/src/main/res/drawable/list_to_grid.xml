@@ -1,0 +1,32 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="24dp"
+            android:height="24dp"
+            android:viewportWidth="24"
+            android:viewportHeight="24">
+            <clip-path
+                android:name="mask"
+                android:pathData="M 3 4 L 21 4 L 21 18 L 3 18 Z"/>
+            <path
+                android:name="path_1"
+                android:pathData="M 7 17 L 21 17 L 21 15 L 7 15 L 7 17 Z M 3 17 L 5 17 L 5 15 L 3 15 L 3 17 Z M 22 13 L 24 13 L 24 11 L 22 11 L 22 13 Z M 22 7 L 24 7 L 24 9 L 22 9 L 22 7 Z M 7 13 L 21 13 L 21 11 L 7 11 L 7 13 Z M 7 7 L 21 7 L 21 9 L 7 9 Z M 3 13 L 5 13 L 5 11 L 3 11 L 3 13 Z M 3 9 L 5 9 L 5 7 L 3 7 L 3 9 Z"
+                android:fillColor="#000"
+                android:strokeWidth="1"/>
+        </vector>
+    </aapt:attr>
+    <target android:name="path_1">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="pathData"
+                android:duration="200"
+                android:valueFrom="M 7 17 L 21 17 L 21 15 L 7 15 L 7 17 Z M 3 17 L 5 17 L 5 15 L 3 15 L 3 17 Z M 22 13 L 24 13 L 24 11 L 22 11 L 22 13 Z M 22 7 L 24 7 L 24 9 L 22 9 L 22 7 Z M 7 13 L 21 13 L 21 11 L 7 11 L 7 13 Z M 7 7 L 21 7 L 21 9 L 7 9 Z M 3 13 L 5 13 L 5 11 L 3 11 L 3 13 Z M 3 9 L 5 9 L 5 7 L 3 7 L 3 9 Z"
+                android:valueTo="M 7 24 L 21 24 L 21 22 L 7 22 L 7 24 Z M 3 24 L 5 24 L 5 22 L 3 22 L 3 24 Z M 16 18 L 21 18 L 21 12 L 16 12 L 16 18 Z M 16 5 L 21 5 L 21 11 L 16 11 L 16 5 Z M 15 18 L 15 18 L 15 12 L 10 12 L 10 18 Z M 10 5 L 15 5 L 15 11 L 10 11 Z M 4 18 L 9 18 L 9 12 L 4 12 L 4 18 Z M 4 11 L 9 11 L 9 5 L 4 5 L 4 11 Z"
+                android:valueType="pathType"
+                android:interpolator="@android:interpolator/fast_out_slow_in"/>
+        </aapt:attr>
+    </target>
+</animated-vector>

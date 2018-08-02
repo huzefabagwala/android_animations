@@ -1,0 +1,47 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="24dp"
+            android:height="24dp"
+            android:viewportWidth="24"
+            android:viewportHeight="24">
+            <path
+                android:name="path"
+                android:pathData="M 12 4.5 C 7 4.5 2.73 7.61 1 12 C 2.73 16.39 7 19.5 12 19.5 C 17 19.5 21.27 16.39 23 12 C 21.27 7.61 17 4.5 12 4.5 Z M 12 17 C 9.24 17 7 14.76 7 12 C 7 9.24 9.24 7 12 7 C 14.76 7 17 9.24 17 12 C 17 14.76 14.76 17 12 17 Z M 12 9 C 10.34 9 9 10.34 9 12 C 9 13.66 10.34 15 12 15 C 13.66 15 15 13.66 15 12 C 15 10.34 13.66 9 12 9 Z"
+                android:fillColor="#000"
+                android:strokeWidth="1"/>
+        </vector>
+    </aapt:attr>
+    <target android:name="path">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:propertyName="pathData"
+                    android:duration="500"
+                    android:valueFrom="M 12 4.5 C 7 4.5 2.73 7.61 1 12 C 2.73 16.39 7 19.5 12 19.5 C 17 19.5 21.27 16.39 23 12 C 21.27 7.61 17 4.5 12 4.5 Z M 12 17 C 9.24 17 7 14.76 7 12 C 7 9.24 9.24 7 12 7 C 14.76 7 17 9.24 17 12 C 17 14.76 14.76 17 12 17 Z M 12 9 C 10.34 9 9 10.34 9 12 C 9 13.66 10.34 15 12 15 C 13.66 15 15 13.66 15 12 C 15 10.34 13.66 9 12 9 Z"
+                    android:valueTo="M 12 4.5 C 7 4.5 2.7 7.6 1 12 C 2.7 16.4 7 19.5 12 19.5 C 17 19.5 21.3 16.4 23 12 C 21.3 7.6 17 4.5 12 4.5 Z M 12 17 C 9.2 17 7 14.8 7 12 C 7 9.2 9.2 7 12 7 C 14.8 7 17 9.2 17 12 C 17 14.8 14.8 17 12 17 Z M 10 8 C 8.3 8 7 9.3 7 11 C 7 12.7 8.3 14 10 14 C 11.7 14 13 12.7 13 11 C 13 9.3 11.7 8 10 8 Z"
+                    android:valueType="pathType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+                <objectAnimator
+                    android:propertyName="pathData"
+                    android:startOffset="700"
+                    android:duration="500"
+                    android:valueFrom="M 12 4.5 C 7 4.5 2.7 7.6 1 12 C 2.7 16.4 7 19.5 12 19.5 C 17 19.5 21.3 16.4 23 12 C 21.3 7.6 17 4.5 12 4.5 Z M 12 17 C 9.2 17 7 14.8 7 12 C 7 9.2 9.2 7 12 7 C 14.8 7 17 9.2 17 12 C 17 14.8 14.8 17 12 17 Z M 10 8 C 8.3 8 7 9.3 7 11 C 7 12.7 8.3 14 10 14 C 11.7 14 13 12.7 13 11 C 13 9.3 11.7 8 10 8 Z"
+                    android:valueTo="M 12 4.5 C 7 4.5 2.7 7.6 1 12 C 2.7 16.4 7 19.5 12 19.5 C 17 19.5 21.3 16.4 23 12 C 21.3 7.6 17 4.5 12 4.5 Z M 12 17 C 9.2 17 7 14.8 7 12 C 7 9.2 9.2 7 12 7 C 14.8 7 17 9.2 17 12 C 17 14.8 14.8 17 12 17 Z M 14 8 C 12.3 8 11 9.3 11 11 C 11 12.7 12.3 14 14 14 C 15.7 14 17 12.7 17 11 C 17 9.3 15.7 8 14 8 Z"
+                    android:valueType="pathType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+                <objectAnimator
+                    android:propertyName="pathData"
+                    android:startOffset="1400"
+                    android:duration="600"
+                    android:valueFrom="M 12 4.5 C 7 4.5 2.7 7.6 1 12 C 2.7 16.4 7 19.5 12 19.5 C 17 19.5 21.3 16.4 23 12 C 21.3 7.6 17 4.5 12 4.5 Z M 12 17 C 9.2 17 7 14.8 7 12 C 7 9.2 9.2 7 12 7 C 14.8 7 17 9.2 17 12 C 17 14.8 14.8 17 12 17 Z M 14 8 C 12.3 8 11 9.3 11 11 C 11 12.7 12.3 14 14 14 C 15.7 14 17 12.7 17 11 C 17 9.3 15.7 8 14 8 Z"
+                    android:valueTo="M 12 4.5 C 7 4.5 2.73 7.61 1 12 C 2.73 16.39 7 19.5 12 19.5 C 17 19.5 21.27 16.39 23 12 C 21.27 7.61 17 4.5 12 4.5 Z M 12 17 C 9.24 17 7 14.76 7 12 C 7 9.24 9.24 7 12 7 C 14.76 7 17 9.24 17 12 C 17 14.76 14.76 17 12 17 Z M 12 9 C 10.34 9 9 10.34 9 12 C 9 13.66 10.34 15 12 15 C 13.66 15 15 13.66 15 12 C 15 10.34 13.66 9 12 9 Z"
+                    android:valueType="pathType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>
